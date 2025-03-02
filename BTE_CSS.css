@@ -1,0 +1,67 @@
+body{
+    background-color:#eeeeee;
+}
+
+h1 {
+    color:white;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgba(29, 25, 25, 0.73),rgba(62, 60, 60, 0.73)),url("https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.jpg?s=612x612&w=0&k=20&c=QbFk2SfDb-7oK5Wo9dKmzFGNoi-h8HVEdOYWZbIjffo=");
+    padding: 100pt;
+    background-size: 100%;
+    font-size:xxx-large;
+}
+h3{
+    text-align: center;
+    font-size:x-large;
+}
+
+.steps{
+    font-size:medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item{
+    display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+  border:none;
+  margin:20px;
+}
+
+.container{
+    display:flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.hungry{
+    width: 350pt;
+    height:250pt;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    margin-top: 10pt;
+    padding: 15pt;
+    border-radius: 10pt;
+    background-color: green;
+    font-size: large;
+}
+
+h2{
+    margin: 15%;
+    font-size: xx-large;
+}
+
+.food{
+    padding: 40pt;
+}
